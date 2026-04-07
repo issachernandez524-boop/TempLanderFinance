@@ -1,0 +1,44 @@
+:root {
+  --color-primary: #0a2f78;
+  --color-accent: #3f65be;
+  --color-accent-dark: #2f539f;
+  --color-text: #102645;
+  --color-muted: #4f6078;
+  --color-border: #dbe2ef;
+  --color-white: #ffffff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: var(--color-text);
+  background: var(--color-white);
+}
+
+main {
+  min-height: 52vh;
+}
+
+.skipLink {
+  position: absolute;
+  left: 10px;
+  top: -100px;
+  z-index: 100;
+  background: var(--color-primary);
+  color: var(--color-white);
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 10px 14px;
+}
+
+.skipLink:focus {
+  top: 10px;
+}
