@@ -1,3 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+@font-face {
+  font-family: "LT Remark";
+  src: url("https://framerusercontent.com/assets/GHgDNReRtD7hzyHdOj1nqYKY.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
 :root {
   --color-primary: #0a2f78;
   --color-accent: #3f65be;
@@ -6,6 +16,8 @@
   --color-muted: #4f6078;
   --color-border: #dbe2ef;
   --color-white: #ffffff;
+  --font-sans: "Inter", "Segoe UI", Arial, sans-serif;
+  --font-display: "LT Remark", "PT Serif", Georgia, serif;
 }
 
 *,
@@ -18,9 +30,19 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Segoe UI", Arial, sans-serif;
+  font-family: var(--font-sans);
   color: var(--color-text);
   background: var(--color-white);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display);
+  font-weight: 400;
 }
 
 main {
