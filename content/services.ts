@@ -15,75 +15,63 @@ export const servicesContent = {
     body: "Every successful real estate transaction follows a proven process. We've refined ours over 15 years and 500+ deals to ensure nothing falls through the cracks.",
     steps: [
       {
-        number: "01",
+        icon: "https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f4ac.png",
         title: "Initial Consultation",
-        description: "We discuss your goals, timeline, budget, and must-haves. This 30-minute call sets the foundation for everything that follows.",
-        icon: "💬"
+        body: "We discuss your goals, timeline, budget, and must-haves. This 30-minute call sets the foundation for everything that follows."
       },
       {
-        number: "02",
+        icon: "https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f50d.png",
         title: "Strategy & Search",
-        description: "We develop a customized search strategy, set up alerts for new listings, and tap our network for off-market opportunities.",
-        icon: "🔍"
+        body: "We develop a customized search strategy, set up alerts for new listings, and tap our network for off-market opportunities."
       },
       {
-        number: "03",
+        icon: "https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/270d-fe0f.png",
         title: "Offer & Negotiation",
-        description: "When you find the right property, we handle pricing analysis, offer preparation, and aggressive negotiation on your behalf.",
-        icon: "✍️"
+        body: "When you find the right property, we handle pricing analysis, offer preparation, and aggressive negotiation on your behalf."
       }
     ]
   },
+
+  differenceHeading: "What Makes Us Different",
   
   differenceItems: [
     {
       title: "Buyer Representation",
-      subtitle: "Your advocate in the market",
-      description: "Exclusive access to listings, off-market properties, and new construction pre-sales. We negotiate price, terms, and contingencies to protect your interests.",
-      icon: "🛡️"
+      body: "Exclusive access to listings, off-market properties, and new construction pre-sales. We negotiate price, terms, and contingencies to protect your interests."
     },
     {
       title: "Seller Representation",
-      subtitle: "Maximum exposure, optimal price",
-      description: "Professional staging, photography, and multi-channel marketing. Our pricing strategy attracts qualified buyers while maximizing your return.",
-      icon: "📢"
+      body: "Professional staging, photography, and multi-channel marketing. Our pricing strategy attracts qualified buyers while maximizing your return."
     },
     {
       title: "Property Management",
-      subtitle: "Passive income, active management",
-      description: "Full-service management including tenant screening, rent collection, maintenance coordination, and detailed financial reporting.",
-      icon: "📊"
+      body: "Full-service management including tenant screening, rent collection, maintenance coordination, and detailed financial reporting."
     },
     {
       title: "Investment Advisory",
-      subtitle: "Data-driven portfolio growth",
-      description: "Market analysis, cash-flow projections, and 1031 exchange guidance. We help you build wealth through strategic real estate acquisitions.",
-      icon: "📈"
+      body: "Market analysis, cash-flow projections, and 1031 exchange guidance. We help you build wealth through strategic real estate acquisitions."
     },
     {
       title: "Relocation Services",
-      subtitle: "Seamless transitions",
-      description: "Corporate and personal relocation support including area orientation, school research, and temporary housing coordination.",
-      icon: "🚚"
+      body: "Corporate and personal relocation support including area orientation, school research, and temporary housing coordination."
     },
     {
       title: "Commercial Real Estate",
-      subtitle: "Business space solutions",
-      description: "Office, retail, industrial, and mixed-use properties. Lease negotiations, site selection, and investment sales for businesses of all sizes.",
-      icon: "🏢"
+      body: "Office, retail, industrial, and mixed-use properties. Lease negotiations, site selection, and investment sales for businesses of all sizes."
     }
   ],
   
   benefits: {
     image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&q=80",
+    imageAlt: "The Grha Real Estate advantage",
     heading: "The Grha Advantage",
     points: [
-      { text: "24/7 access to your dedicated agent", icon: "⏰" },
-      { text: "Off-market and pre-market listings", icon: "🔑" },
-      { text: "In-house mortgage pre-approval partners", icon: "🏦" },
-      { text: "Professional staging and photography", icon: "📸" },
-      { text: "Virtual tour technology for every listing", icon: "🥽" },
-      { text: "Post-closing support and resources", icon: "🤝" }
+      "24/7 access to your dedicated agent",
+      "Off-market and pre-market listings",
+      "In-house mortgage pre-approval partners",
+      "Professional staging and photography",
+      "Virtual tour technology for every listing",
+      "Post-closing support and resources"
     ]
   },
   
@@ -106,7 +94,7 @@ export const servicesContent = {
     },
     {
       question: "What's your commission structure?",
-      answer: "Standard seller commission is 5-6%, split between listing and buyer's agents. For buyers, our services are typically free (seller pays). Property management and investment advisory have custom fee structures we discuss in consultation."
+      answer: "Standard seller commission is 5-6%, split between listing and buyer's agents. For buyers, our services are typically free. Property management and investment advisory have custom fee structures we discuss in consultation."
     },
     {
       question: "Can you help me find investment properties out of state?",
@@ -116,20 +104,5 @@ export const servicesContent = {
       question: "What happens after closing?",
       answer: "We provide a comprehensive move-in resource packet, utility setup assistance, and check-ins at 30 and 90 days. For investment clients, we transition seamlessly into property management if desired."
     }
-  ],
-  
-  teamSection: {
-    heading: "Your Dedicated Team",
-    description: "Meet the specialists who will guide your real estate journey from start to finish.",
-    members: aboutTeamMembers
-  },
-  
-  ctaSection: {
-    heading: "Ready to Get Started?",
-    body: "Whether you're buying, selling, or investing, your first step is a conversation. No pressure, no obligation — just expert advice tailored to your situation.",
-    primaryCta: "Book Free Consultation",
-    primaryHref: "/contact",
-    secondaryCta: "Call Now",
-    secondaryHref: "tel:+15551234567"
-  }
+  ]
 };
