@@ -19,14 +19,14 @@ export const aboutContent = {
   
   industriesHeading: "Property Types We Specialize In",
   industries: [
-    { label: "Single Family Homes", icon: "🏡" },
-    { label: "Luxury Condos", icon: "🏢" },
-    { label: "Vacation Properties", icon: "🏖️" },
-    { label: "Investment Rentals", icon: "📈" },
-    { label: "Commercial Spaces", icon: "🏭" },
-    { label: "New Construction", icon: "🏗️" },
-    { label: "Historic Properties", icon: "🏛️" },
-    { label: "Land & Lots", icon: "🌳" }
+    { label: "Single Family Homes", icon: "https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f3e1.png" },
+    { label: "Luxury Condos", icon: "https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f3e2.png" },
+    { label: "Vacation Properties", icon: "https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f3d6-fe0f.png" },
+    { label: "Investment Rentals", icon: "https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f4c8.png" },
+    { label: "Commercial Spaces", icon: "https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f3ed.png" },
+    { label: "New Construction", icon: "https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f3d7-fe0f.png" },
+    { label: "Historic Properties", icon: "https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f3db-fe0f.png" },
+    { label: "Land & Lots", icon: "https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f333.png" }
   ],
   
   geography: {
