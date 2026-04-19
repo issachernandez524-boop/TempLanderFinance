@@ -79,17 +79,37 @@ export const homeContent = {
   
   whyChoose: {
     heading: "Why Choose Grha Real Estate",
-    body: "We combine deep local market knowledge with cutting-edge technology and genuine client care. Every transaction receives senior-level attention, and our transparent communication keeps you informed at every step. Your goals are our mission.",
+    body: "We combine deep local market knowledge with cutting-edge technology and genuine client care. Every transaction receives senior-level attention.",
     ctaLabel: "Get in Touch",
     ctaHref: "/contact"
   },
-  
+
   featureCards: [
-    { icon: "🏠", title: "Local Expertise", description: "Deep knowledge of neighborhoods, schools, and market trends." },
-    { icon: "🤝", title: "Negotiation Power", description: "Proven track record securing favorable terms for our clients." },
-    { icon: "📱", title: "Tech-Enabled", description: "Virtual tours, digital contracts, and real-time market data." },
-    { icon: "🔑", title: "Full Service", description: "From search to closing and beyond — we're with you." },
-    { icon: "🌐", title: "Trusted Network", description: "Connections to lenders, inspectors, contractors, and more." }
+    {
+      title: "Local Expertise",
+      body: "Deep knowledge of neighborhoods, schools, and market trends.",
+      imageUrl: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80"
+    },
+    {
+      title: "Negotiation Power",
+      body: "Proven track record securing favorable terms for our clients.",
+      imageUrl: "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=800&q=80"
+    },
+    {
+      title: "Tech-Enabled",
+      body: "Virtual tours, digital contracts, and real-time market data.",
+      imageUrl: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80"
+    },
+    {
+      title: "Full Service",
+      body: "From search to closing and beyond — we're with you every step.",
+      imageUrl: "https://images.unsplash.com/photo-1449844908441-8829872d2607?w=800&q=80"
+    },
+    {
+      title: "Trusted Network",
+      body: "Connections to lenders, inspectors, contractors, and more.",
+      imageUrl: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80"
+    }
   ],
   
   dashboard: {
@@ -100,10 +120,10 @@ export const homeContent = {
     ctaLabel: "Get Started",
     ctaHref: "/contact",
     steps: [
-      { label: "Create your profile", description: "Tell us your preferences and budget" },
-      { label: "Get matched", description: "AI-powered recommendations + agent curation" },
-      { label: "Tour properties", description: "Schedule virtual or in-person viewings" },
-      { label: "Close with confidence", description: "Expert guidance through offer to keys" }
+      "Create your profile — tell us your preferences and budget",
+      "Get matched with AI-powered recommendations and agent curation",
+      "Tour properties with virtual or in-person viewings",
+      "Close with confidence — expert guidance through offer to keys"
     ]
   },
   
