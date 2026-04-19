@@ -30,42 +30,48 @@ export const homeContent = {
         label: "Buyer Representation",
         title: "Find Your Perfect Home",
         description: "Access exclusive listings and off-market properties. We negotiate the best terms and guide you through inspections, financing, and closing.",
-        image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80",
+        mediaType: "image",
+        mediaUrl: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80",
         metric: "98% client satisfaction"
       },
       {
         label: "Seller Representation",
         title: "Maximize Your Sale",
         description: "Strategic pricing, professional staging, and targeted marketing. We position your property to attract qualified buyers quickly.",
-        image: "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=800&q=80",
+        mediaType: "image",
+        mediaUrl: "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=800&q=80",
         metric: "Average 12 days on market"
       },
       {
         label: "Property Management",
         title: "Hassle-Free Ownership",
         description: "Full-service management for investment properties. Tenant screening, maintenance coordination, and financial reporting handled for you.",
-        image: "https://images.unsplash.com/photo-1449844908441-8829872d2607?w=800&q=80",
+        mediaType: "image",
+        mediaUrl: "https://images.unsplash.com/photo-1449844908441-8829872d2607?w=800&q=80",
         metric: "95% tenant retention"
       },
       {
         label: "Investment Advisory",
         title: "Build Your Portfolio",
         description: "Data-driven insights on emerging markets and cash-flow opportunities. We help you make informed investment decisions.",
-        image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80",
+        mediaType: "image",
+        mediaUrl: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80",
         metric: "$50M+ in transactions"
       },
       {
         label: "Relocation Services",
         title: "Seamless Moves",
         description: "Comprehensive relocation support for corporate and personal moves. Area tours, school research, and settling-in assistance.",
-        image: "https://images.unsplash.com/photo-1576941089067-2de3c901e126?w=800&q=80",
+        mediaType: "image",
+        mediaUrl: "https://images.unsplash.com/photo-1576941089067-2de3c901e126?w=800&q=80",
         metric: "200+ relocations/year"
       },
       {
         label: "Commercial Real Estate",
         title: "Business Solutions",
         description: "Office, retail, and industrial properties. Lease negotiations, site selection, and investment sales for businesses of all sizes.",
-        image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80",
+        mediaType: "image",
+        mediaUrl: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80",
         metric: "100+ commercial deals"
       }
     ]
