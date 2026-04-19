@@ -22,6 +22,7 @@ export const homeContent = {
   ],
   
   financeSection: {
+    eyebrow: "What We Offer",
     heading: "Our Services",
     summary: "Comprehensive real estate solutions tailored to your needs — whether buying, selling, or investing.",
     items: [
@@ -72,7 +73,9 @@ export const homeContent = {
   
   whyChoose: {
     heading: "Why Choose Grha Real Estate",
-    body: "We combine deep local market knowledge with cutting-edge technology and genuine client care. Every transaction receives senior-level attention, and our transparent communication keeps you informed at every step. Your goals are our mission."
+    body: "We combine deep local market knowledge with cutting-edge technology and genuine client care. Every transaction receives senior-level attention, and our transparent communication keeps you informed at every step. Your goals are our mission.",
+    ctaLabel: "Get in Touch",
+    ctaHref: "/contact"
   },
   
   featureCards: [
@@ -86,6 +89,10 @@ export const homeContent = {
   dashboard: {
     heading: "Your Property Search, Simplified",
     body: "Our client portal gives you 24/7 access to listings, appointment scheduling, document management, and direct communication with your agent.",
+    image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80",
+    imageAlt: "Property search dashboard",
+    ctaLabel: "Get Started",
+    ctaHref: "/contact",
     steps: [
       { label: "Create your profile", description: "Tell us your preferences and budget" },
       { label: "Get matched", description: "AI-powered recommendations + agent curation" },
@@ -95,13 +102,15 @@ export const homeContent = {
   },
   
   testimonial: {
+    heading: "What Our Clients Say",
     quote: "Grha made buying our first home incredibly smooth. They found us the perfect neighborhood, negotiated $15K below asking, and walked us through every document. Couldn't recommend them more highly.",
     author: "Sarah & Michael Chen, First-Time Homebuyers"
   },
   
   contactMap: {
     heading: "Visit Our Office",
-    body: "Stop by for a coffee and let's discuss your real estate goals. We're conveniently located in the heart of Beverly Hills."
+    body: "Stop by for a coffee and let's discuss your real estate goals. We're conveniently located in the heart of Beverly Hills.",
+    embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.0!2d-118.4000!3d34.0667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDA0JzAwLjAiTiAxMTgKMzYnMDAuMCJX!5e0!3m2!1sen!2sus!4v1234567890"
   }
 };
 
