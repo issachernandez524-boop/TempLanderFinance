@@ -1,6 +1,15 @@
 import { WHATSAPP_AGENT_URL } from "@/content/site";
 
 export const contactContent = {
+  panel: {
+    title: "Let's Start Your Real Estate Journey",
+    subtitle: "Whether you're buying, selling, or just exploring options, we're here to help.",
+    cta: {
+      label: "Chat on WhatsApp",
+      href: "https://wa.me/15551234567/?text=Hi%2C%20I%27m%20interested%20in%20buying%20or%20selling%20a%20home"
+    }
+  },
+
   hero: {
     title: "Let's Start Your Real Estate Journey",
     subtitle: "Whether you're buying, selling, or just exploring options, we're here to help. Reach out anytime — we typically respond within 2 hours.",
