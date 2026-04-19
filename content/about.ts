@@ -1,41 +1,46 @@
-import { globalTeamMembers } from "@/content/home";
+import { aboutTeamMembers } from "@/content/home";
 
 export const aboutContent = {
   hero: {
-    title: "BBC Factoring: Tu socio financiero de confianza",
-    subtitle:
-      "Más de 20 años impulsando empresas con soluciones de factoraje nacional e internacional.",
-    ctaLabel: "Hablar con un asesor",
-    ctaHref: "/contact"
+    title: "Your Trusted Real Estate Partner",
+    subtitle: "Fifteen years of excellence in helping families and investors find their perfect properties. We combine market expertise with personalized service.",
+    ctaLabel: "Meet Our Team",
+    ctaHref: "#team",
+    secondaryCtaLabel: "View Our Story",
+    secondaryCtaHref: "#story"
   },
+  
   intro: {
-    heading: "Quiénes somos",
-    body: "Somos una firma especializada en factoraje para empresas en crecimiento. Acompañamos a clientes en México y mercados internacionales con una atención cercana, procesos ágiles y enfoque operativo.",
-    image: "https://www.rtsinternational.com/sites/default/files/2024-10/image%207.png",
-    imageAlt: "Equipo BBC Factoring"
+    heading: "Who We Are",
+    body: "Grha Real Estate was founded on a simple principle: every client deserves expert guidance, honest advice, and unwavering dedication. What started as a single-agent operation has grown into a trusted name in luxury real estate, serving clients across California and beyond. We don't just close deals — we build lasting relationships.",
+    image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&q=80",
+    imageAlt: "Grha Real Estate team at office"
   },
-  industriesHeading: "Sectores que atendemos",
+  
+  industriesHeading: "Property Types We Specialize In",
   industries: [
-    { label: "Warehousing", icon: "https://www.rtsinternational.com/sites/default/files/2025-01/packaging.svg" },
-    { label: "Manufactura industrial", icon: "https://www.rtsinternational.com/sites/default/files/2025-01/manufacturing.svg" },
-    { label: "Transporte nacional", icon: "https://www.rtsinternational.com/sites/default/files/2025-01/transportation.svg" },
-    { label: "Transporte internacional", icon: "https://www.rtsinternational.com/sites/default/files/2025-01/more.svg" },
-    { label: "Logística y distribución", icon: "https://www.rtsinternational.com/sites/default/files/2025-01/fuel.svg" },
-    { label: "Exportadores", icon: "https://www.rtsinternational.com/sites/default/files/2025-01/textiles.svg" },
-    { label: "Comercializadoras", icon: "https://www.rtsinternational.com/sites/default/files/2025-01/plastics.svg" },
-    { label: "Operaciones multimoneda", icon: "https://www.rtsinternational.com/sites/default/files/2025-01/metals.svg" }
+    { label: "Single Family Homes", icon: "🏡" },
+    { label: "Luxury Condos", icon: "🏢" },
+    { label: "Vacation Properties", icon: "🏖️" },
+    { label: "Investment Rentals", icon: "📈" },
+    { label: "Commercial Spaces", icon: "🏭" },
+    { label: "New Construction", icon: "🏗️" },
+    { label: "Historic Properties", icon: "🏛️" },
+    { label: "Land & Lots", icon: "🌳" }
   ],
+  
   geography: {
-    heading: "Dónde operamos",
-    body: "Con base en Monterrey y alcance internacional, apoyamos empresas que venden en México y en el extranjero con necesidades de liquidez en diferentes divisas.",
-    image: "https://www.rtsinternational.com/sites/default/files/2024-11/Map.png",
-    imageAlt: "Cobertura BBC Factoring"
+    heading: "Where We Operate",
+    body: "Based in Beverly Hills with coverage across Los Angeles County, Orange County, and select markets in San Diego and Santa Barbara. Our agents live in the communities they serve, providing unmatched local insight.",
+    image: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=1200&q=80",
+    imageAlt: "Los Angeles skyline and neighborhoods"
   },
-  teamHeading: "Equipo de liderazgo",
+  
+  teamHeading: "Meet Our Leadership",
   trust: {
-    heading: "Por qué confían en BBC Factoring",
-    body: "Nuestros clientes confían en nosotros por la rapidez de respuesta, la transparencia en condiciones y un acompañamiento real durante todo el ciclo de cobranza."
+    heading: "Why Clients Trust Us",
+    body: "Our reputation is built on results and relationships. We maintain a 98% client satisfaction rate, with over 70% of our business coming from referrals and repeat clients. When you work with Grha, you gain a partner for life."
   }
 };
 
-export const aboutTeamMembers = globalTeamMembers;
+export { aboutTeamMembers };
