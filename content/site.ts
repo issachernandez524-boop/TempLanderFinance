@@ -3,38 +3,40 @@ export type NavItem = {
   href: string;
 };
 
-/** WhatsApp “chat with an advisor” — same link for header CTA, hero, and footer. */
-export const WHATSAPP_ADVISOR_URL =
-  "https://api.whatsapp.com/send/?phone=%2B528183091546&text=Hola%2C+quisiera+solicitar+m%C3%A1s+informaci%C3%B3n+sobre+el+servicio+de+factoraje+para+mi+empresa.&type=phone_number&app_absent=0";
+export const WHATSAPP_AGENT_URL = "https://wa.me/15551234567/?text=Hi%2C%20I%27m%20interested%20in%20buying%20or%20selling%20a%20home";
 
 export const siteConfig = {
-  siteName: "BBC Factoring",
-  companyName: "BBC Factoring",
-  ctaLabel: "Chatea con un Asesor",
-  ctaHref: WHATSAPP_ADVISOR_URL,
-  languages: ["ESPAÑOL"],
+  siteName: "Grha Real Estate",
+  companyName: "Grha Real Estate",
+  tagline: "Premium Properties, Exceptional Service",
+  ctaLabel: "Chat with an Agent",
+  ctaHref: WHATSAPP_AGENT_URL,
+  languages: ["ENGLISH"],
+  
   nav: [
-    { label: "Inicio", href: "/" },
-    { label: "Servicios", href: "/services" },
-    { label: "Nosotros", href: "/about" },
+    { label: "Home", href: "/" },
+    { label: "About", href: "/about" },
+    { label: "Services", href: "/services" },
     { label: "Insights", href: "/insights" },
-    { label: "Contacto", href: "/contact" }
+    { label: "Contact", href: "/contact" }
   ] satisfies NavItem[],
+  
   account: {
     label: "WhatsApp",
-    href: WHATSAPP_ADVISOR_URL
+    href: WHATSAPP_AGENT_URL
   },
+  
   footer: {
-    address: "Río Vístula 335, Colonia del Valle, San Pedro Garza García, N.L. 66220",
+    address: "123 Luxury Lane, Beverly Hills, CA 90210",
     legalLinks: [
-      { label: "Aviso de Privacidad", href: "#" },
-      { label: "Términos y Condiciones", href: "#" }
+      { label: "Privacy Policy", href: "#" },
+      { label: "Terms of Service", href: "#" }
     ],
     partnerLinks: [
-      { label: "Atención a Clientes", href: "mailto:factoring@bbcpartners.mx" },
-      { label: "factoring@bbcpartners.mx", href: "mailto:factoring@bbcpartners.mx" },
-      { label: "+52 81 8309 1546", href: "tel:+528183091546" },
-      { label: "Chatea por WhatsApp", href: WHATSAPP_ADVISOR_URL }
+      { label: "Client Support", href: "mailto:hello@grharealestate.com" },
+      { label: "hello@grharealestate.com", href: "mailto:hello@grharealestate.com" },
+      { label: "+1 (555) 123-4567", href: "tel:+15551234567" },
+      { label: "Chat on WhatsApp", href: WHATSAPP_AGENT_URL }
     ]
   }
 };
