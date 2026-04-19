@@ -1,178 +1,115 @@
-import { WHATSAPP_ADVISOR_URL } from "@/content/site";
-
 export const homeContent = {
   hero: {
-    title: "Soluciones de Factoraje para Empresas en Monterrey",
-    subtitle:
-      "Factoraje nacional e internacional con depósitos en menos de 24 horas, sin deuda, sin límites y en cualquier divisa para empresas que operan dentro o fuera de México.",
-    ctaLabel: "Chatea con un Asesor",
-    ctaHref: WHATSAPP_ADVISOR_URL,
-    secondaryCtaLabel: "Contáctanos",
-    secondaryCtaHref: "/contact",
-    videoUrl: "https://framerusercontent.com/assets/etgmwEyGLXsT9Rv13qZtx7LlzQ.mp4",
-    videoPoster: "https://www.rtsinternational.com/sites/default/files/2024-10/image%207.png"
+    title: "Find Your Dream Home",
+    subtitle: "Discover luxury properties in the most desirable neighborhoods. Our expert agents guide you through every step of your real estate journey.",
+    ctaLabel: "View Listings",
+    ctaHref: "/insights",
+    secondaryCtaLabel: "Contact Agent",
+    secondaryCtaHref: "https://wa.me/15551234567/?text=Hi%2C%20I%27d%20like%20to%20speak%20with%20an%20agent",
+    videoUrl: "",
+    videoPoster: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1920&q=80"
   },
+  
   intro: {
-    heading: "Más de 20 años financiando empresas globalmente",
-    body: "Contamos con presencia establecida en más de 40 países y acompañamos a empresas con operaciones nacionales e internacionales para mejorar su liquidez sin afectar su balance."
+    heading: "Welcome to Grha Real Estate",
+    body: "For over 15 years, we've helped families and investors find their perfect properties. From modern city condos to sprawling suburban estates, our portfolio spans the most sought-after locations. We believe in personalized service, market expertise, and making your real estate dreams a reality."
   },
+  
   stats: [
-    {
-      icon: "https://www.rtsinternational.com/sites/default/files/2024-10/public.svg",
-      value: "Sin Límite de Crédito",
-      label: "Tu línea de factoraje crece junto con tu operación."
-    },
-    {
-      icon: "https://www.rtsinternational.com/sites/default/files/2024-10/paid.svg",
-      value: "Sin Comisiones por Disposición",
-      label: "Accede a liquidez sin cargos ocultos por uso."
-    },
-    {
-      icon: "https://www.rtsinternational.com/sites/default/files/2024-10/headset_mic.svg",
-      value: "Sin Comisiones por Apertura",
-      label: "Transparencia total desde el inicio."
-    }
+    { value: "500+", label: "Properties Sold" },
+    { value: "150+", label: "Happy Families" },
+    { value: "15", label: "Years Experience" }
   ],
+  
   financeSection: {
-    eyebrow: "¿Cómo funciona el factoraje?",
-    heading: "Acceso inmediato a capital sin endeudarte",
-    summary:
-      "Adelantamos hasta el 90% del valor de tus facturas en menos de 24 horas. Tú vendes, nosotros te pagamos hoy mismo.",
+    heading: "Our Services",
+    summary: "Comprehensive real estate solutions tailored to your needs — whether buying, selling, or investing.",
     items: [
       {
-        label: "Liquidez inmediata",
-        title: "Acceso inmediato a capital sin endeudarte",
-        description: "Obtén liquidez sin recurrir a préstamos ni afectar tu balance financiero.",
-        mediaType: "image",
-        mediaUrl: "https://www.rtsinternational.com/sites/default/files/2025-01/laptop-screen.png",
-        metric: "Hasta 90% del valor de tus facturas en menos de 24 horas"
+        label: "Buyer Representation",
+        title: "Find Your Perfect Home",
+        description: "Access exclusive listings and off-market properties. We negotiate the best terms and guide you through inspections, financing, and closing.",
+        image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80",
+        metric: "98% client satisfaction"
       },
       {
-        label: "Evaluación inteligente",
-        title: "Evaluamos a tus clientes, no tu historial crediticio",
-        description: "Nos enfocamos en la solidez de quienes te compran, no en tu historial o antigüedad.",
-        mediaType: "image",
-        mediaUrl: "https://www.rtsinternational.com/sites/default/files/2024-11/Map.png",
-        metric: "Decisiones más ágiles para tu operación"
+        label: "Seller Representation",
+        title: "Maximize Your Sale",
+        description: "Strategic pricing, professional staging, and targeted marketing. We position your property to attract qualified buyers quickly.",
+        image: "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=800&q=80",
+        metric: "Average 12 days on market"
       },
       {
-        label: "Multidivisa",
-        title: "Fondos disponibles en la divisa que elijas",
-        description: "Operamos en múltiples divisas, incluyendo pesos, dólares, euros y otras según tus necesidades.",
-        mediaType: "image",
-        mediaUrl: "https://www.rtsinternational.com/sites/default/files/2025-01/image%201.jpg",
-        metric: "Flexibilidad para operaciones nacionales e internacionales"
+        label: "Property Management",
+        title: "Hassle-Free Ownership",
+        description: "Full-service management for investment properties. Tenant screening, maintenance coordination, and financial reporting handled for you.",
+        image: "https://images.unsplash.com/photo-1449844908441-8829872d2607?w=800&q=80",
+        metric: "95% tenant retention"
       },
       {
-        label: "Cobranza incluida",
-        title: "Asesoría y gestión de cobranza incluidas",
-        description: "Te acompañamos en el seguimiento y cobranza de tus clientes, sin costo adicional y a tus tiempos.",
-        mediaType: "image",
-        mediaUrl: "https://www.rtsinternational.com/sites/default/files/2025-01/laptop-screen.png",
-        metric: "Soporte cercano durante todo el ciclo"
+        label: "Investment Advisory",
+        title: "Build Your Portfolio",
+        description: "Data-driven insights on emerging markets and cash-flow opportunities. We help you make informed investment decisions.",
+        image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80",
+        metric: "$50M+ in transactions"
       },
       {
-        label: "Transparencia total",
-        title: "Sin comisiones por disposición ni costos extra",
-        description: "Transparencia total: sin letras chiquitas ni cargos ocultos en tu operación.",
-        mediaType: "image",
-        mediaUrl: "https://www.rtsinternational.com/sites/default/files/2024-11/Map.png",
-        metric: "Sin costos ocultos en tu operación"
+        label: "Relocation Services",
+        title: "Seamless Moves",
+        description: "Comprehensive relocation support for corporate and personal moves. Area tours, school research, and settling-in assistance.",
+        image: "https://images.unsplash.com/photo-1576941089067-2de3c901e126?w=800&q=80",
+        metric: "200+ relocations/year"
       },
       {
-        label: "Escalabilidad",
-        title: "Línea de financiamiento que crece con tu empresa",
-        description: "A mayor volumen de facturación, mayor capacidad de fondeo disponible.",
-        mediaType: "image",
-        mediaUrl: "https://www.rtsinternational.com/sites/default/files/2025-01/image%201.jpg",
-        metric: "Más capacidad de fondeo conforme creces"
+        label: "Commercial Real Estate",
+        title: "Business Solutions",
+        description: "Office, retail, and industrial properties. Lease negotiations, site selection, and investment sales for businesses of all sizes.",
+        image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80",
+        metric: "100+ commercial deals"
       }
     ]
   },
+  
   whyChoose: {
-    heading: "¿A quién está dirigido este servicio?",
-    body: "Empresas que facturan más de $6 millones de pesos mensuales, con operaciones de exportación o alta rotación de facturación.",
-    ctaLabel: "Conocer más",
-    ctaHref: "/services"
+    heading: "Why Choose Grha Real Estate",
+    body: "We combine deep local market knowledge with cutting-edge technology and genuine client care. Every transaction receives senior-level attention, and our transparent communication keeps you informed at every step. Your goals are our mission."
   },
+  
   featureCards: [
-    {
-      title: "Warehousing (almacenamiento industrial)",
-      body: "Soluciones para operaciones con inventario, almacenamiento y rotación constante.",
-      imageUrl: "https://framerusercontent.com/images/HlLNHFp92mBs48AlJPbjnCfJs.jpg"
-    },
-    {
-      title: "Manufactura industrial",
-      body: "Capital de trabajo para ciclos de producción y cumplimiento de pedidos.",
-      imageUrl: "https://framerusercontent.com/images/xm2kX5TxyDqX3dK52e6gsO890s.jpg"
-    },
-    {
-      title: "Transporte nacional e internacional",
-      body: "Liquidez para sostener rutas, combustible, operadores y crecimiento operativo.",
-      imageUrl: "https://framerusercontent.com/images/LW10f0HNq16YWPNqdCABHPmxeg.jpg"
-    },
-    {
-      title: "Logística y distribución",
-      body: "Factoraje diseñado para empresas con alto volumen de facturación recurrente.",
-      imageUrl: "https://framerusercontent.com/images/BhloAVtfH51EsFRx4LnZwv35zIw.jpg"
-    },
-    {
-      title: "Operaciones de exportación",
-      body: "Estructuras de fondeo para ventas internacionales y cobros con plazos extendidos.",
-      imageUrl: "https://framerusercontent.com/images/LW10f0HNq16YWPNqdCABHPmxeg.jpg"
-    }
+    { icon: "🏠", title: "Local Expertise", description: "Deep knowledge of neighborhoods, schools, and market trends." },
+    { icon: "🤝", title: "Negotiation Power", description: "Proven track record securing favorable terms for our clients." },
+    { icon: "📱", title: "Tech-Enabled", description: "Virtual tours, digital contracts, and real-time market data." },
+    { icon: "🔑", title: "Full Service", description: "From search to closing and beyond — we're with you." },
+    { icon: "🌐", title: "Trusted Network", description: "Connections to lenders, inspectors, contractors, and more." }
   ],
+  
   dashboard: {
-    image: "https://www.rtsinternational.com/sites/default/files/2025-01/laptop-screen.png",
-    imageAlt: "BBC Factoring",
-    heading: "Adelanta tu capital en cuatro simples pasos",
-    body: "Proceso claro para convertir tus facturas en liquidez inmediata:",
+    heading: "Your Property Search, Simplified",
+    body: "Our client portal gives you 24/7 access to listings, appointment scheduling, document management, and direct communication with your agent.",
     steps: [
-      "Envía tu factura y documentos al completar una venta o servicio.",
-      "Recibe entre 80% y 90% del monto total en menos de 24 horas.",
-      "Te acompañamos en el proceso de cobranza a tus clientes.",
-      "Se libera el resto de la factura, menos una comisión por transacción."
-    ],
-    ctaLabel: "Iniciar solicitud",
-    ctaHref: "/contact"
+      { label: "Create your profile", description: "Tell us your preferences and budget" },
+      { label: "Get matched", description: "AI-powered recommendations + agent curation" },
+      { label: "Tour properties", description: "Schedule virtual or in-person viewings" },
+      { label: "Close with confidence", description: "Expert guidance through offer to keys" }
+    ]
   },
+  
   testimonial: {
-    heading: "Liquidez sin deuda, sin límites y sin complicaciones",
-    quote:
-      "Con BBC Factoring obtuvimos capital en menos de 24 horas y mejoramos la continuidad operativa sin afectar nuestra estructura financiera.",
-    author: "Cliente BBC Factoring"
+    quote: "Grha made buying our first home incredibly smooth. They found us the perfect neighborhood, negotiated $15K below asking, and walked us through every document. Couldn't recommend them more highly.",
+    author: "Sarah & Michael Chen, First-Time Homebuyers"
   },
+  
   contactMap: {
-    heading: "Información de contacto",
-    body: "Atención a Clientes: factoring@bbcpartners.mx | +52 81 8309 1546 | Oficinas: Río Vístula 335, Colonia del Valle, San Pedro Garza García, N.L. 66220.",
-    embedUrl:
-      "https://www.google.com/maps?q=R%C3%ADo+V%C3%ADstula+335,+Colonia+del+Valle,+San+Pedro+Garza+Garc%C3%ADa,+N.L.+66220&output=embed"
+    heading: "Visit Our Office",
+    body: "Stop by for a coffee and let's discuss your real estate goals. We're conveniently located in the heart of Beverly Hills."
   }
 };
 
-export const globalTeamMembers = [
-  {
-    name: "Felipe Molina",
-    role: "Socio"
-  },
-  {
-    name: "Jorge Junco",
-    role: "Socio"
-  },
-  {
-    name: "Santiago Valdez",
-    role: "Socio"
-  },
-  {
-    name: "David Whittemore",
-    role: "Socio Houston"
-  },
-  {
-    name: "Carlos Lopez Padilla",
-    role: "Socio Oficina Pacífico"
-  },
-  {
-    name: "Ana María García Bonilla",
-    role: "Operaciones, estructura y Control de Riesgos"
-  }
+export const aboutTeamMembers = [
+  { name: "Alexandra Rivera", role: "Founder & Lead Agent", image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80" },
+  { name: "Marcus Thompson", role: "Senior Buyer's Agent", image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80" },
+  { name: "Jennifer Liu", role: "Listing Specialist", image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80" },
+  { name: "David Kim", role: "Investment Advisor", image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80" },
+  { name: "Maria Santos", role: "Client Relations", image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&q=80" },
+  { name: "James Wilson", role: "Property Manager", image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80" }
 ];
