@@ -16,9 +16,9 @@ export const homeContent = {
   },
   
   stats: [
-    { value: "500+", label: "Properties Sold" },
-    { value: "150+", label: "Happy Families" },
-    { value: "15", label: "Years Experience" }
+    { value: "500+", label: "Properties Sold", icon: "🏠" },
+    { value: "150+", label: "Happy Families", icon: "👨‍👩‍👧" },
+    { value: "15", label: "Years Experience", icon: "⭐" }
   ],
   
   financeSection: {
@@ -113,4 +113,5 @@ export const aboutTeamMembers = [
   { name: "Maria Santos", role: "Client Relations", image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&q=80" },
   { name: "James Wilson", role: "Property Manager", image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80" }
 ];
+
 export const globalTeamMembers = aboutTeamMembers;
